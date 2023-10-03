@@ -1,0 +1,181 @@
+  /* .root
+  $primary: #582891;
+ $secondary:#1B1F24;
+ $success:#D9E1E9;
+ $activeprimary:#49aed6;
+ $info:#467AA9;
+ $cardprimary:#E8ECEF;  */
+
+
+ 
+
+body{
+    font-family: 'Poppins', sans-serif;  
+ 
+}
+
+p{
+    font-size: 12px;
+}
+/* navbar  */
+/* ------- */
+/* navbar end */
+
+/* See how much  */
+
+/* stap-guide */
+#how-much .stap-guide{
+    position: relative;
+    height: 90px;
+}
+
+
+#how-much .next-line::after {
+    content: "";
+    position: absolute;
+    top: 69px;
+    background-color: #582891;
+    height: 64px;
+    width: 2px;
+    z-index: 0;
+    margin-left: 24px;
+}
+
+#how-much .stap-guide-mob{
+    position: relative;
+    width: 145px;
+}
+
+
+#how-much .next-line-mob::after {
+    content: "";
+    position: absolute;
+    right: -48px;
+    top: 27%;
+    margin: 2px auto;
+    width: 94px;
+    height: 3px;
+    background: #fff;
+}
+
+
+@media (max-width: 465px) {
+  
+    #how-much  .next-line-mob::after {    
+        position: absolute;
+        right: -44px;
+        top: 27%;
+        margin: 2px auto;
+        width: 74px;
+        height: 3px;
+        background: #fff;
+    
+  }
+  }
+
+
+  @media (max-width: 375px) {
+  
+    #how-much  .next-line-mob::after {    
+        position: absolute;
+        right: -44px;
+        top: 27%;
+        margin: 2px auto;
+        width: 65px;
+        height: 3px;
+        background: #fff;
+    
+  }
+  }
+
+
+  @media (max-width: 1198px) {
+    #how-much {
+    .button-mq .btn-left { 
+    margin-left: 90px;   
+     
+    }
+  }
+  }
+
+  @media (max-width: 1198px) {
+    #how-much {
+    .button-mq .btn-right { 
+    margin-right: 90px;   
+     
+    }
+  }
+  }
+
+
+  @media (max-width: 990px) {
+    #how-much {
+    .button-mq .btn-left { 
+    margin-left: 34px;   
+     
+    }
+  }
+  }
+
+  @media (max-width: 990px) {
+    #how-much {
+    .button-mq .btn-right { 
+    margin-right: 34px;   
+     
+    }
+  }
+  }
+
+
+  @media (max-width: 760px) {
+    #how-much {
+    .button-mq .btn-left { 
+    margin-left: 0px;   
+     
+    }
+  }
+  }
+
+  @media (max-width: 760px) {
+    #how-much {
+    .button-mq .btn-right { 
+    margin-right: 0px;   
+     
+    }
+  }
+  }
+
+/* stap-guide end */
+
+
+#how-much .image-card {
+    height: 164px;
+    width: 278px;
+};
+   
+
+/* content us page */
+
+
+
+#how-much .contact-form {
+  width: 100%;
+}
+
+#how-much .input {
+  border-style: solid;
+  border-color: #582891;
+  width: 100%;
+  border-radius: 10px;
+  height: 58px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+
+
+
+
+
+
