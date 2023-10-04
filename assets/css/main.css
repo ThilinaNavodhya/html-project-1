@@ -6,8 +6,7 @@ $primary: #582891;
  $info:#467AA9;
  $cardprimary:#E8ECEF;  */
 
- :root,
-[data-bs-theme=light] {
+ :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -133,17 +132,13 @@ $primary: #582891;
   --bs-btn-border-color: #582891;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #633f8f;
-  --bs-btn-hover-border-color: #0a58ca;
-  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-hover-border-color: #582891;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #490b96;
   --bs-btn-active-border-color: #4c1294;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #0d6efd;
-  --bs-btn-disabled-border-color: #0d6efd;
 }
-
+  
+  
 .btn-outline-primary {
   --bs-btn-color: #582891;
   --bs-btn-border-color: #582891;
